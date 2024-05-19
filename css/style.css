@@ -7,6 +7,10 @@
     
 }
 
+body{
+  background: linear-gradient(0deg, #58a6ff, #f1faee);
+}
+
 .nav-link a
 {
 

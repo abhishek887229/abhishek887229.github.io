@@ -1,6 +1,5 @@
 .container
 {
-    background: #f1faee;
     font-family: roboto;
     height: 200vh;
     color: #1c3961;
@@ -8,7 +7,7 @@
 }
 
 body{
-  background: linear-gradient(0deg, #58a6ff, #f1faee);
+  background: linear-gradient(0deg, #58a6ff2d, #f1faee2d);
 }
 
 .nav-link a
@@ -83,9 +82,14 @@ body{
   
 
 
+  .btn-success {
+    color: #fff;
+    background-color: #e23879;
+    border-color: #e23879;
+}
 
-
-
-
-
-
+.fixed-size-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
